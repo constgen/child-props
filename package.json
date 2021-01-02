@@ -1,0 +1,37 @@
+{
+	"name": "child-props",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Component that extend all children with props",
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"vue",
+		"child",
+		"props",
+		"children"
+	],
+	"scripts": {
+		"preinstall": "node -e \"!process.env.npm_config_user_agent.startsWith('pnpm/') && !console.log('Use \\`npx pnpm install\\` to install dependencies in this repository\\n') && process.exit(1)\"",
+		"eslint": "eslint ./",
+		"pretest": "npm run eslint -- --max-warnings 0",
+		"lint": "npm run eslint -- --fix"
+	},
+	"dependencies": {
+		"neutrino": "9.4.0",
+		"webpack": "^4.42.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"vue": "^2.6.11"
+	},
+	"devDependencies": {
+		"@constgen/eslint": "2.3.0",
+		"eslint": "7.15.0"
+	},
+	"engines": {
+		"node": ">=10.10",
+		"npm": ">=5.4.0",
+		"pnpm": ">=4.12.0"
+	}
+}
