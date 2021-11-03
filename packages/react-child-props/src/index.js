@@ -1,7 +1,2 @@
-import PropTypes from 'prop-types'
-
-import Props from './Props'
-
-Props.propTypes = {
-	children: PropTypes.node.isRequired
-}
+export { default as Props } from './Props'
+export { default as ExistingProps } from './ExistingProps'
